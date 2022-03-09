@@ -1,6 +1,7 @@
 # Linker output
 *.ilk
 
+.vscode/*
 # Compiled Lua sources
 luac.out
 
