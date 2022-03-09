@@ -45,7 +45,7 @@ function Siege:StartActivity()
 	self:SetTeamFunds(self:GetStartingGold(), self.PlayerTeam)
 	
 	-- This line will filter out all scenes without any "Bunker Breach LZ" area
-	self.InvaderLZ = SceneMan.Scene:GetArea("Bunker Breach LZ")
+	self.InvaderLZ = SceneMan.Scene:GetArea("LZ Defender")
 
 	-- Timers
 	self.WinTimer = Timer()
@@ -79,6 +79,10 @@ function Siege:StartActivity()
 				playerBrainsLocation = actor.Pos
 				break
 			end
+		end
+		if playerBrainsLocation == nil then
+			print("wazu's fallback reached!")
+			playerBrainsLocation = Vector(0, 0)
 		end
 	end
 	
