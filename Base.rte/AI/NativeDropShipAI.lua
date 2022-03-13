@@ -15,12 +15,6 @@ function NativeDropShipAI:Create(Owner)
 	Members.PlayerInterferedTimer:SetSimTimeLimitMS(500)
 	
 	Members.LastAIMode = Actor.AIMODE_NONE
-	
-	-- If GroundDeliverDistance is not specified (-1.0) just set it to
-	-- vanilla values
-	if Owner.GroundDeliveryDistance < 0 then
-		Owner.GroundDeliveryDistance = Owner.Radius * 2
-	end
 
 	local item = Owner:Inventory();
 	if item and IsTDExplosive(item) then
