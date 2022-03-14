@@ -152,6 +152,7 @@ function NativeDropShipAI:Update(Owner)
 				self.Waypoint.Y = -500	-- Go to orbit
 			end
 		else
+			-- Descend towards the ground to either deliver cargo or idle
 			local dist = SceneMan:ShortestDistance(Owner.Pos, self.Waypoint, false).Magnitude
 			if dist < Owner.Radius and math.abs(change) < 3 and math.abs(Owner.Vel.X) < 4 then	-- If we passed the hover check, check if we can start unloading
 				local WptL = SceneMan:MovePointToGround(Owner.Pos+Vector(-Owner.Radius, -Owner.Radius), self.hoverAlt, 12)
