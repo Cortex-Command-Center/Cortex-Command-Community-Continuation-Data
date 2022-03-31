@@ -6,6 +6,7 @@ function KeepieUppie:StartActivity()
 	for player = Activity.PLAYER_1, Activity.MAXPLAYERCOUNT - 1 do
 		if self:PlayerActive(player) and self:PlayerHuman(player) then
 			self:AddOverridePurchase(CreateACRocket("Rocklet"), player);
+			self:SetTeamFunds(1000000, Activity.PLAYER_1);
 			self:SetViewState(Activity.LZSELECT, player);
 		end
 	end
@@ -50,7 +51,7 @@ function KeepieUppie:StartActivity()
 		self.RandomSpawnTime = 4000;
 	end
 	
-	self:SetTeamFunds(0, Activity.TEAM_1);
+	self:SetTeamFunds(1000000, Activity.TEAM_1);
 	-- CPU Funds are unlimited
 	self:SetTeamFunds(1000000, self.CPUTeam);
 
@@ -224,7 +225,10 @@ function KeepieUppie:UpdateActivity()
 		end
 	end
 	
-	self:SetTeamFunds(0, Activity.TEAM_1);
+	if self.started then
+		-- No cheating! (or breaking the activity, gareth..)
+		self:SetTeamFunds(0, Activity.TEAM_1);
+	end
 	
 	self:YSortObjectivePoints();
 end
