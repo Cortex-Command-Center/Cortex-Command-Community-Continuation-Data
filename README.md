@@ -1,16 +1,16 @@
 # Cortex Command Community Continuation
-This is where you can find the community's plans for Cortex Command's future. There'll be rebalancing, new weapons and units, and much more. Stay up to date in our [Discord channel](https://discord.gg/K9UsbW7u).
+This is where you can find the community's plans for Cortex Command's future. There'll be rebalancing, new weapons and units, and much more. Stay up to date in our [Discord channel](https://discord.gg/Fwyar4Uvx6).
 
 ***
 
 # How to Play the Game
-If you just want to play the latest version of the game you can get it from our [website](https://cortex-command-community.github.io), and you can get mods from the [mod portal](https://cccp.mod.io).
+If you just want to play the latest version of the game you can get it from our releases page [website](https://github.com/Filipawn-Industries/Cortex-Command-Community-Continuation-Engine/releases), and you can get mods from the [mod portal](https://cccp.mod.io).
 
 ***
 
 # How To Make Your Voice Heard #
 
-So you want to take part in the project? A good start would be going to the Discord where the project is discussed. You can find a link [here](https://discord.gg/K9UsbW7u). After that, all our releases will be available under the releases area and all of our bugs and changes and ideas are tracked in github issues. Feel free to play and suggest changes or point out any problems.
+So you want to take part in the project? A good start would be going to the Discord where the project is discussed. You can find a link [here](https://discord.gg/Fwyar4Uvx6). After that, all our releases will be available under the releases area and all of our bugs and changes and ideas are tracked in github issues. Feel free to play and suggest changes or point out any problems.
 
 ***
 
