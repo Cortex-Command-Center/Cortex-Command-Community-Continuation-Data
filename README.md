@@ -1,6 +1,6 @@
 # Cortex Command Community Continuation
 This is where you can find the community's plans for Cortex Command's future. There'll be rebalancing, new weapons and units, and much more. Stay up to date in our [Discord channel](https://discord.gg/Fwyar4Uvx6).
-TEST (for github->discord integration nonsense)
+
 ***
 
 # How to Play the Game
