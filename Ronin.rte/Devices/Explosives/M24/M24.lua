@@ -4,6 +4,10 @@ function Create(self)
 end
 function Update(self)
 	if self.fuze then
+		if not self:IsAttached() and self.rotated ~= true then
+			self.rotated = true;
+			self.AngularVel = -12 * self.FlipFactor;
+		end
 		if self.fuze:IsPastSimMS(self.fuzeDelay) then
 			self:GibThis();
 		end

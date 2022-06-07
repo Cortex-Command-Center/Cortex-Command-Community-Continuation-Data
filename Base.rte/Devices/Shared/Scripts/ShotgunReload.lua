@@ -12,6 +12,10 @@ function Update(self)
 		if self.loadedShell then
 			self.loadedShell = false;
 			self.Magazine.RoundCount = self.ammoCounter + 1;
+			-- sanity check
+			if self.Magazine.RoundCount > self.Magazine.Capacity then
+				self.Magazine.RoundCount == self.Magazine.Capacity;
+			end
 		else
 			self.ammoCounter = self.Magazine.RoundCount;
 		end
@@ -19,6 +23,9 @@ function Update(self)
 			self.reloadCycle = false;
 		end
 	else
+		if self.ammoCounter == 1 and self.FiredFrame then
+			self.ammoCounter = 0;
+		end
 		self.reloadTimer:Reset();
 		self.reloadCycle = true;
 		self.loadedShell = true;
