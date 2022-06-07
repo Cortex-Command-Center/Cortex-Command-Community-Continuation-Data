@@ -14,7 +14,7 @@ function Update(self)
 			self.Magazine.RoundCount = self.ammoCounter + 1;
 			-- sanity check
 			if self.Magazine.RoundCount > self.Magazine.Capacity then
-				self.Magazine.RoundCount == self.Magazine.Capacity;
+				self.Magazine.RoundCount = self.Magazine.Capacity;
 			end
 		else
 			self.ammoCounter = self.Magazine.RoundCount;
