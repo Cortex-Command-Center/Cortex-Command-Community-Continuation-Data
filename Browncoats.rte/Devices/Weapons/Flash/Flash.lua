@@ -1,5 +1,5 @@
 function Create(self)
-	self.fireVel = 40;
+	self.fireVel = 17;
 	self.spread = math.rad(self.ShakeRange);
 	
 	self.searchRange = 100 + FrameMan.PlayerScreenWidth * 0.3;
