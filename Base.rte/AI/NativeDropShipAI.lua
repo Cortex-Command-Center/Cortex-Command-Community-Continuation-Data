@@ -23,11 +23,11 @@ function NativeDropShipAI:Create(Owner)
 	
 	-- The drop ship tries to hover this many pixels above the ground
 	if Members.AIMode == Actor.AIMODE_BRAINHUNT then
-		Members.hoverAlt = Owner.Radius * 1.7
+		Members.hoverAlt = Owner.GroundDeliveryDistance + Owner.HoverHeightModifier
 	elseif Members.AIMode == Actor.AIMODE_BOMB then
-		Members.hoverAlt = Owner.Radius * 6
+		Members.hoverAlt = Owner.GroundDeliveryDistance * 4.3 + Owner.HoverHeightModifier
 	else
-		Members.hoverAlt = Owner.GroundDeliveryDistance
+		Members.hoverAlt = Owner.GroundDeliveryDistance + Owner.HoverHeightModifier
 	end
 	
 	-- The controllers
