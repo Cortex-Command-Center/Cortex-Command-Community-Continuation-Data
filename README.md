@@ -4,7 +4,7 @@ This is where you can find the community's plans for Cortex Command's future. Th
 ***
 
 # How to Play the Game
-If you just want to play the latest version of the game you can get it from our releases page [website](https://github.com/Cortex-Command-Center/Cortex-Command-Community-Continuation-Engine/releases), and you can get mods from the [mod portal](https://cccp.mod.io).
+If you just want to play the latest version of the game you can get it from our releases page [website](https://github.com/Cortex-Command-Center/Cortex-Command-Community-Continuation-Engine/releases), and you can get mods from the [mod portal](https://www.moddb.com/games/cortex-command-community-continuation/mods). Alternatively, CCCP mods from their [mod.io](https://cccp.mod.io) will also mostly function, or be very trivial to convert.
 
 ***
 
