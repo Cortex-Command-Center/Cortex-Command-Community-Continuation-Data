@@ -3,6 +3,8 @@ This is where you can find the community's plans for Cortex Command's future. Th
 
 We are currently a little bit de-platformed. We're working on changing that. You can reach us best, probably, on [Communities](https://communities.win/c/CortexCommand).
 
+[Temporary, non-CC Discord](https://discord.gg/2wcXT6PQpR)
+
 ***
 
 # How to Play the Game
@@ -12,7 +14,7 @@ If you just want to play the latest version of the game you can get it from our 
 
 # How To Make Your Voice Heard #
 
-So you want to take part in the project? A good start would be going to the Discord where the project is discussed. You can find a link [here](https://discord.gg/XAExEhBshH). After that, all our releases will be available under the releases area and all of our bugs and changes and ideas are tracked in github issues. Feel free to play and suggest changes or point out any problems.
+Due to our current deplatforming, it might be difficult to find a place dedicated to talking about this project. Until we fix that, your best bet is the temporary discord shown above, or github issues.
 
 ***
 
