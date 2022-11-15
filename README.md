@@ -1,9 +1,7 @@
 # Cortex Command Community Continuation
 This is where you can find the community's plans for Cortex Command's future. There'll be rebalancing, new weapons and units, and much more.
 
-We are currently a little bit de-platformed. We're working on changing that. You can reach us best, probably, on [Communities](https://communities.win/c/CortexCommand).
-
-[Temporary, non-CC Discord](https://discord.gg/2wcXT6PQpR)
+We are currently a little bit de-platformed. We're working on changing that.
 
 ***
 
