@@ -12,7 +12,7 @@ If you just want to play the latest version of the game you can get it from our 
 
 # How To Make Your Voice Heard #
 
-Due to our current deplatforming, it might be difficult to find a place dedicated to talking about this project. Until we fix that, your best bet is the temporary discord shown above, or github issues.
+Due to our current deplatforming, it might be difficult to find a place dedicated to talking about this project. Until we fix that, your best bet is github issues.
 
 ***
 
