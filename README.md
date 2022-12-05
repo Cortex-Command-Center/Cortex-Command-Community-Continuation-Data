@@ -1,7 +1,7 @@
 # Cortex Command Community Continuation
 This is where you can find the community's plans for Cortex Command's future. There'll be rebalancing, new weapons and units, and much more.
 
-We are currently a little bit de-platformed. We're working on changing that.
+Our self-hosted chat is here: [Rocket.Chat](https://www.cortexcommandcenter.net/home)
 
 ***
 
@@ -12,7 +12,9 @@ If you just want to play the latest version of the game you can get it from our 
 
 # How To Make Your Voice Heard #
 
-Due to our current deplatforming, it might be difficult to find a place dedicated to talking about this project. Until we fix that, your best bet is github issues.
+Speak your mind here first and foremost: [Rocket.Chat](https://www.cortexcommandcenter.net/home)
+
+Github issues are less efficient at making your voice heard.
 
 ***
 
