@@ -1,3 +1,8 @@
+-- This script incorporates Filipawn Industries code and the vanilla burstfire script together
+-- There is likely better ways of doing a lot of this, potentially even standardizing it so it can be easily used more widely
+
+-- Last worked on 12/4/2023
+
 function OnFire(self)
 
 	self.FireTimer:Reset();

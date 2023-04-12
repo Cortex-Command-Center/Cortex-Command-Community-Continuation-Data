@@ -1,3 +1,7 @@
+N O T I C E S :
+
+Cyberpunk 2077 assets used with permission, but not endorsement, from CD Projekt RED.
+
 S O U N D   E F F E C T S   C R E D I T S :
 
 *******************************************************************************
@@ -32,6 +36,21 @@ projectile:
 FlameThrowerLoop3D
 FlamethrowerFire
 RocketLauncherExplosionA
+
+*******************************************************************************
+ Coalition.rte\Actors\Turrets\BunkerCannon\Sounds
+-------------------------------------------------------------------------------
+CD Projekt RED: Cyberpunk 2077
+
+w_gun_shotgun_power_igla_double
+
+Digital Extremes: Warframe
+
+GorgonFireMechSingle
+ArchAntiAircraftGunMech
+Nechramech Sounds
+RocketLauncherReload
+ThanotechRifleReload
 
 
 *******************************************************************************
